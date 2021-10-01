@@ -1,0 +1,34 @@
+body {
+    background-color: #fffbf7;
+}
+
+#verde {
+    color: green;
+  }
+
+#desc {
+    color: rgb(175, 175, 175)
+}
+
+#email_input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+#button_try {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -5px;
+    
+}
+
+.promo {
+    color: rgb(175, 175, 175)
+}
