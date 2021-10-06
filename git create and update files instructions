@@ -1,55 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,900;1,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-    <title>Matcha</title>
-</head>
-
-<body>
-    <header class='header'>
-        <a href="#" class = "logo">
-            <img src= 'matcha.png' alt = 'Matcha image'/>
-        </a>
-        <nav class = "navbar">
-            <ul>
-                <li>Platform</li>
-                <li>Pricing</li>
-                <li>Customers</li>
-                <li>Resources</li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <div class = "actions">
-            <a href="#">Sign in</a>
-            <button>Start free trial</button>
-        </div>
-    </header>
-<section class = 'main'>
-    <h1 id = 'verde'>Build your blog. Build your business.</h1>
-    <h4 id = 'desc'>Instantly publish articles, drive more traffic, grow your email list and see your's blog impact on sales</h4>
-
-    <form class = "loginform">
-        <input id = 'email_input' type="email" placeholder="Enter email address">
-        <button id = 'button_try' type="submit">Try it now &rarr;</button>
-    </form>
-
-    <p class = 'promo'>Start publishing today with a <strong>free 7-day trial.</strong></p>
-    <p class = 'promo'><strong>No credit card required.</strong></p>
-    <!-- <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png", alt = 'Image not found D:'> -->
-    <img class = "capteraimg" src="capterra.png", alt = 'Image not found D:'> 
-</section>
-</body>
-
-</html>
-
-<!-- https://bedu-fef.netlify.app/ -->
-<!--
 delgadonoriega-macbookpro2% pwd
 /Users/delgadonoriega/Documents/Matcha
 delgadonoriega-macbookpro2% git init
@@ -115,4 +63,56 @@ Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Javier009/Matcha.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
-delgadonoriega-macbookpro2%  -->
+delgadonoriega-macbookpro2% pwd
+/Users/delgadonoriega/Documents/Matcha
+delgadonoriega-macbookpro2% git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+delgadonoriega-macbookpro2% git add .
+delgadonoriega-macbookpro2% git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+delgadonoriega-macbookpro2% git commit -m "changed done"
+[main 9d3a01f] changed done
+ 1 file changed, 69 insertions(+), 2 deletions(-)
+delgadonoriega-macbookpro2% git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+delgadonoriega-macbookpro2% git log
+commit 9d3a01ff1cedddeb1e6106574aab05ac7b858aee (HEAD -> main)
+Author: javier009 <jdelnor09@gmail.com>
+Date:   Fri Oct 1 19:41:05 2021 -0500
+
+    changed done
+
+commit c675ce4a5f19d0f5f773620d3ef01a899f33c75b (origin/main)
+Author: javier009 <jdelnor09@gmail.com>
+Date:   Thu Sep 30 21:42:33 2021 -0500
+
+    Este es mi primer commit de modulo
+delgadonoriega-macbookpro2% git push origin main 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.58 KiB | 1.58 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Javier009/Matcha.git
+   c675ce4..9d3a01f  main -> main
+delgadonoriega-macbookpro2% 

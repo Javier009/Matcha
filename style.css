@@ -1,13 +1,33 @@
 body {
     background-color: #fffbf7;
+    margin: 0;
 }
-
+.main{
+    margin-top: 140px;
+    text-align: center;
+}
 #verde {
-    color: green;
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+    font-weight: 900px;
+    text-align: center;
   }
 
 #desc {
-    color: rgb(175, 175, 175)
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.loginform  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 #email_input {
@@ -30,5 +50,51 @@ body {
 }
 
 .promo {
-    color: rgb(175, 175, 175)
+    color: rgb(175, 175, 175);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    /*margin: 40px 20px 0;*/
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0px;
+}
+
+.header li {
+    display: inline;
+    
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header .logo{
+    width: 15%;
+}
+
+.header .navbar {
+    width: 70%;
+    text-align: center;
+}
+
+.header .navbar ul{
+    padding: 0;
+}
+
+.header .actions{
+    width: 15%;
+    text-align: right;
+}
+
+.capteraimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
