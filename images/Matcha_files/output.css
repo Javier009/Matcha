@@ -1,0 +1,89 @@
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135359;
+  font-weight: 900;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset !important;
+  padding: 5% 10%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+  background-color: #025157;
+  color: white;
+  border: 0;
+}
+.blog .process-list {
+  margin: 40px 0 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center !important;
+}
+.blog .process-list .process .process-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  align-items: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135359;
+}
+.blog .card {
+  height: 600px;
+  width: 350px;
+}
+.blog .card .card-body .card-title {
+  color: #4a4a4a;
+}
+.blog .card .card-body .metadata .category {
+  color: #67b54b;
+  font-size: 14px;
+}
+.blog .card .card-body .metadata .read-time {
+  color: #4a4a4a;
+  font-size: 14px;
+}
+.blog .card .card-body .card-text {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 1.5em;
+  min-height: 6em;
+}
+.blog .card .card-body .card-text .read-more {
+  text-decoration: underline;
+}
+.blog .card .card-body .author {
+  display: flex;
+  align-items: center;
+}
+.blog .card .card-body .author img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.blog .card .card-body .author p {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=output.css.map */
